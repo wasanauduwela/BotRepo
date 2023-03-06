@@ -1,0 +1,14 @@
+[
+  {
+    "name": "sport_name",
+    "pattern": "(\\bYoga\\b|\\bJogging\\b|\\bZumba\\b|\\bAerobic\\b|\\bWork\\ Out\\ At\\ Home\\b|\\bGym\\b)"
+  },
+  {
+    "name": "bra_name",
+    "pattern": "(\\b2XU_Aero_Medium_Impact_Bra_Cranberry\\b|\\bAbi_and_Joseph_Success_High_Support_Crop_Stellar\\b)"
+  },
+  {
+    "name": "sports",
+    "pattern": "(\\bRunning\\b|\\bNetball\\b|\\bBasketball\\b|\\bCricket\\b)"
+  }
+]

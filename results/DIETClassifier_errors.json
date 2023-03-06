@@ -1,0 +1,26 @@
+[
+  {
+    "text": "i want to customize bra cup",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "BraCup",
+        "entity": "bra"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "element",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.4823487401008606,
+        "value": "BraCup",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]
