@@ -69,11 +69,15 @@ class ActionBraCupFeatures(Action):
                                 print(attribute_list)
                                 attribute_raw.clear()
 
+
                             dispatcher.utter_message(text="you can change the following values of the selected element as you wish. I will guide you for the selection.\n" +  tabulate(attribute_list,headers=['attributes', 'exisiting values']))
+
+
                             return [SlotSet("element", element_entity)]
                             break
                             # print (str(r))
                             # print(tabulate(r,headers=['attributes', 'exisiting values']))
+
         if element_value == "false":
             dispatcher.utter_message(text="Sorry. you have selected an incorrect element. Please select an element among BraCup, Fastening, Bottom Band, Cradle, Wing, Back style, Fabric, Easthetic as you wish")
             return [SlotSet("element", None)]
